@@ -25,5 +25,5 @@
     -- employee w/LastName
     -- OrderDetail w/OrderId
 
-     SELECT Customer.CompanyName, Employee.LastName, OrderDetail.OrderId
-     FROM -- very lost on where to go after this. Can't seem to find anything that matches up
+    SELECT Customer.CompanyName, Employee.LastName, OrderDetail.OrderId
+    FROM Customer, Employee, OrderDetail;-- very lost on where to go with this, this returns all the same CompanyName and LastName.
